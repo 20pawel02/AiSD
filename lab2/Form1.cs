@@ -1,4 +1,6 @@
+using System.Reflection.Metadata.Ecma335;
 using System.Security.Policy;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace lab2
 {
@@ -11,7 +13,7 @@ namespace lab2
 
 
 
-        int[] sortArray(int[] array)
+        int[] bubbleSort(int[] array)
         {
             int temp = 0;
             bool sort = false;
@@ -43,12 +45,37 @@ namespace lab2
             return wynik;
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        int[] Covert(string napis)
         {
-            int[] tab = { 4, 1, 3, 7, 5 };
-            MessageBox.Show(ToString(tab));
-            int[] tab_1 = sortArray(tab);
-            MessageBox.Show(ToString(tab_1));
+            var liczbyS = napis.Trim().Split(' ');
+            int[] tablica = new int[liczbyS.Length];
+            for(int i = 0; i < tablica.Length; i++)
+            {
+                tablica[i] = int.Parse(liczbyS[i]);
+            }
+            return tablica;
+        }
+
+        private void btn_BubbleSort(object sender, EventArgs e)
+        {
+            //int[] tab = { 4, 1, 3, 7, 5 };
+            //MessageBox.Show(ToString(tab));
+            //int[] tab_1 = bubbleSort(tab);
+            //MessageBox.Show(ToString(tab_1));
+
+            string liczby = tbl_Input.Text;
+            int[] tablica = Covert(liczby);
+
+        }
+
+        private void lbl_wynik(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void tbl_Input(object sender, EventArgs e)
+        {
+            
         }
     }
 }

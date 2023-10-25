@@ -29,30 +29,55 @@
         private void InitializeComponent()
         {
             button1 = new Button();
+            label2 = new Label();
+            textBox1 = new TextBox();
             SuspendLayout();
             // 
             // button1
             // 
-            button1.Location = new Point(288, 328);
+            button1.Location = new Point(340, 352);
             button1.Name = "button1";
             button1.Size = new Size(94, 29);
             button1.TabIndex = 1;
             button1.Text = "Posortuj";
             button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            button1.Click += btn_BubbleSort;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(361, 260);
+            label2.Name = "label2";
+            label2.Size = new Size(50, 20);
+            label2.TabIndex = 3;
+            label2.Text = "label2";
+            label2.Click += lbl_wynik;
+            // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(208, 106);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(403, 27);
+            textBox1.TabIndex = 4;
+            textBox1.TextChanged += tbl_Input;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(textBox1);
+            Controls.Add(label2);
             Controls.Add(button1);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
         private Button button1;
+        private Label label2;
+        private TextBox textBox1;
     }
 }
