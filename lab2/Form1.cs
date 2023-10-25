@@ -40,7 +40,7 @@ namespace lab2
             string wynik = "";
             for (int i = 0; i < array.Length; i++)
             {
-                wynik += array[i].ToString() + ", ";
+                wynik += array[i].ToString() + " ";
             }
             return wynik;
         }
@@ -49,7 +49,7 @@ namespace lab2
         {
             var liczbyS = napis.Trim().Split(' ');
             int[] tablica = new int[liczbyS.Length];
-            for(int i = 0; i < tablica.Length; i++)
+            for (int i = 0; i < tablica.Length; i++)
             {
                 tablica[i] = int.Parse(liczbyS[i]);
             }
@@ -63,19 +63,23 @@ namespace lab2
             //int[] tab_1 = bubbleSort(tab);
             //MessageBox.Show(ToString(tab_1));
 
-            string liczby = tbl_Input.Text;
+            string liczby = tbInput.Text;
             int[] tablica = Covert(liczby);
+            int[] tablica2 = bubbleSort(tablica);
+            label2.Text = ("Wynik: " + ToString(tablica2));
 
         }
 
         private void lbl_wynik(object sender, EventArgs e)
         {
-            
+
         }
 
         private void tbl_Input(object sender, EventArgs e)
         {
-            
+
         }
+
+
     }
 }

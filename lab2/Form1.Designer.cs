@@ -30,7 +30,7 @@
         {
             button1 = new Button();
             label2 = new Label();
-            textBox1 = new TextBox();
+            tbInput = new TextBox();
             SuspendLayout();
             // 
             // button1
@@ -46,27 +46,27 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(361, 260);
+            label2.Location = new Point(354, 207);
             label2.Name = "label2";
             label2.Size = new Size(50, 20);
             label2.TabIndex = 3;
             label2.Text = "label2";
             label2.Click += lbl_wynik;
             // 
-            // textBox1
+            // tbInput
             // 
-            textBox1.Location = new Point(208, 106);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(403, 27);
-            textBox1.TabIndex = 4;
-            textBox1.TextChanged += tbl_Input;
+            tbInput.Location = new Point(208, 106);
+            tbInput.Name = "tbInput";
+            tbInput.Size = new Size(403, 27);
+            tbInput.TabIndex = 4;
+            tbInput.TextChanged += tbl_Input;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(textBox1);
+            Controls.Add(tbInput);
             Controls.Add(label2);
             Controls.Add(button1);
             Name = "Form1";
@@ -78,6 +78,6 @@
         #endregion
         private Button button1;
         private Label label2;
-        private TextBox textBox1;
+        private TextBox tbInput;
     }
 }
