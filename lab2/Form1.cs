@@ -25,13 +25,14 @@ namespace lab2
                 {
                     if (array[i] > array[i + 1])
                     {
+                        sort = true;
                         temp = array[i];
                         array[i] = array[i + 1];
                         array[i + 1] = temp;
                     }
                 }
             }
-            while (sort);
+            while (sort == true);
             return array;
         }
 
