@@ -15,10 +15,15 @@ namespace lab3
             wezel w1 = new wezel(5);
             A(w1);
             wezel w2 = new wezel(3);
+            A(w2);
             wezel w3 = new wezel(1);
+            A(w3);
             wezel w4 = new wezel(2);
-            wezel w5 = new wezel(2);
+            A(w4);
+            wezel w5 = new wezel(2); 
+            A(w5);
             wezel w6 = new wezel(5);
+            A(w6);
             w1.dzieci.Add(w1);
             w2.dzieci.Add(w2);
             w3.dzieci.Add(w3);
@@ -49,5 +54,16 @@ namespace lab3
             this.wartosc = liczba;
         }
 
+    }
+
+    class wezel2
+    {
+        public int wartosc;
+        public List<wezel2> dzieci = new List<wezel2>();
+
+        public wezel2(int liczba)
+        {
+            this.wartosc = liczba;
+        }
     }
 }
