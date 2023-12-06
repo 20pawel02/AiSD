@@ -1,0 +1,6 @@
+C:\Users\tak\Documents\GitHub\AiSD\drzewo_binarne\obj\Debug\net6.0-windows\drzewo_binarne.Form1.resources
+C:\Users\tak\Documents\GitHub\AiSD\drzewo_binarne\obj\Debug\net6.0-windows\drzewo_binarne.csproj.GenerateResource.cache
+C:\Users\tak\Documents\GitHub\AiSD\drzewo_binarne\obj\Debug\net6.0-windows\drzewo_binarne.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tak\Documents\GitHub\AiSD\drzewo_binarne\obj\Debug\net6.0-windows\drzewo_binarne.AssemblyInfoInputs.cache
+C:\Users\tak\Documents\GitHub\AiSD\drzewo_binarne\obj\Debug\net6.0-windows\drzewo_binarne.AssemblyInfo.cs
+C:\Users\tak\Documents\GitHub\AiSD\drzewo_binarne\obj\Debug\net6.0-windows\drzewo_binarne.csproj.CoreCompileInputs.cache

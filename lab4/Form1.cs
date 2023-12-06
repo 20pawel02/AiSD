@@ -189,7 +189,45 @@ namespace lab4
     //do dokonczenia
     public Wezel3 Znajdz(int liczba)
     {
+        var w = this.korzen;
+        if (w.wartosc == liczba)
+        {
+            return w;
+        }
 
+        while (true)
+        {
+            if (liczba < w.wartosc)
+            {
+                if (w.leweDziecko != null)
+                {
+                    w = w.leweDziecko;
+                    if (w.wartosc == liczba)
+                    {
+                        return w;
+                    }
+                }
+                else
+                {
+                    return null;
+                }
+            }
+            else
+            {
+                if (w.praweDziecko != null)
+                {
+                    w = w.praweDziecko;
+                    if (w.wartosc == liczba)
+                    {
+                        return w;
+                    }
+                }
+                else
+                {
+                    return null;
+                }
+            }
+        }
     }
 
     public Wezel3 ZnajdzNajmniejszy(Wezel3 w)
