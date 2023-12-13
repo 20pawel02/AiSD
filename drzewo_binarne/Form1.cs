@@ -20,7 +20,8 @@ namespace drzewo_binarne
             drzewo.Add(7);
             drzewo.Add(6);
             drzewo.Add(9);
-            var x = drzewo.Poprzednik(drzewo.root.praweDziecko);
+            var x = drzewo.Nastepnik(drzewo.root.leweDziecko.praweDziecko);
+            var y = drzewo.Poprzednik(drzewo.root.praweDziecko);
         }
     }
 
@@ -224,9 +225,13 @@ namespace drzewo_binarne
             }
 
             if (w.rodzic.leweDziecko == w)
+            {
                 w.rodzic.leweDziecko = null;
+            }
             else
+            {
                 w.rodzic.praweDziecko = null;
+            }                
 
             w.rodzic = null;         
             return w;
@@ -258,16 +263,51 @@ namespace drzewo_binarne
             return w;
         }
 
-        public Wezel Usun(Wezel w)
+        Wezel UsunGdy2Dzieci(Wezel w)
+        {
+            var zamiennik = this.Nastepnik(w);
+            zamiennik = this.Usun(zamiennik);
+
+            if (w.rodzic != null)
+            {
+                if (w.rodzic.leweDziecko == w)
+                {
+                    w.rodzic.leweDziecko = zamiennik;
+                }
+                else
+                {
+                    w.rodzic.praweDziecko = zamiennik;
+                }
+            }
+            zamiennik.rodzic = w.rodzic;
+
+            w.rodzic = null;
+            zamiennik.leweDziecko = w.leweDziecko;
+            zamiennik.leweDziecko.rodzic = zamiennik;
+            w.leweDziecko = null;
+
+            zamiennik.praweDziecko = w.praweDziecko;
+            zamiennik.praweDziecko.rodzic = zamiennik;
+            w.praweDziecko = null;
+            return w;
+        }
+
+        Wezel Usun(Wezel w)
         {
             var liczbaDzieci = w.IleDzieci();
             switch (liczbaDzieci)
             {
                 case 0:
                     return this.UsunGdy0Dzieci(w);
+                    break;
                 case 1:
-                    
+                    return this.UsunGdy1Dziecko(w);
+                    break;
+                case 2:
+                    return this.UsunGdy2Dzieci(w);
+                    break;
             }
+            return w;
         }
     }
 }

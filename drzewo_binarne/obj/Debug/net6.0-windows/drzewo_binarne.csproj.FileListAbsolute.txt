@@ -4,3 +4,13 @@ C:\Users\tak\Documents\GitHub\AiSD\drzewo_binarne\obj\Debug\net6.0-windows\drzew
 C:\Users\tak\Documents\GitHub\AiSD\drzewo_binarne\obj\Debug\net6.0-windows\drzewo_binarne.AssemblyInfoInputs.cache
 C:\Users\tak\Documents\GitHub\AiSD\drzewo_binarne\obj\Debug\net6.0-windows\drzewo_binarne.AssemblyInfo.cs
 C:\Users\tak\Documents\GitHub\AiSD\drzewo_binarne\obj\Debug\net6.0-windows\drzewo_binarne.csproj.CoreCompileInputs.cache
+C:\Users\tak\Documents\GitHub\AiSD\drzewo_binarne\bin\Debug\net6.0-windows\drzewo_binarne.exe
+C:\Users\tak\Documents\GitHub\AiSD\drzewo_binarne\bin\Debug\net6.0-windows\drzewo_binarne.deps.json
+C:\Users\tak\Documents\GitHub\AiSD\drzewo_binarne\bin\Debug\net6.0-windows\drzewo_binarne.runtimeconfig.json
+C:\Users\tak\Documents\GitHub\AiSD\drzewo_binarne\bin\Debug\net6.0-windows\drzewo_binarne.dll
+C:\Users\tak\Documents\GitHub\AiSD\drzewo_binarne\bin\Debug\net6.0-windows\drzewo_binarne.pdb
+C:\Users\tak\Documents\GitHub\AiSD\drzewo_binarne\obj\Debug\net6.0-windows\drzewo_binarne.dll
+C:\Users\tak\Documents\GitHub\AiSD\drzewo_binarne\obj\Debug\net6.0-windows\refint\drzewo_binarne.dll
+C:\Users\tak\Documents\GitHub\AiSD\drzewo_binarne\obj\Debug\net6.0-windows\drzewo_binarne.pdb
+C:\Users\tak\Documents\GitHub\AiSD\drzewo_binarne\obj\Debug\net6.0-windows\drzewo_binarne.genruntimeconfig.cache
+C:\Users\tak\Documents\GitHub\AiSD\drzewo_binarne\obj\Debug\net6.0-windows\ref\drzewo_binarne.dll
