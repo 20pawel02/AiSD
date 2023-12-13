@@ -1,3 +1,5 @@
+using System.Diagnostics;
+
 namespace drzewo_binarne
 {
     public partial class Form1 : Form
@@ -47,12 +49,27 @@ namespace drzewo_binarne
                 this.leweDziecko = dziecko;
             }
         }
+
+        public int IleDzieci()
+        {
+            int wynik = 0;
+            if (this.leweDziecko != null)
+            {
+                wynik++;
+            }
+            if (this.praweDziecko != null)
+            {
+                wynik++;
+            }
+            return wynik;
+        }
     }
 
     public class DrzewoBinarne
     {
         public Wezel root;
         int liczba_wezlow = 0;
+
         public DrzewoBinarne(Wezel root)
         {
             this.root = root;
@@ -164,23 +181,19 @@ namespace drzewo_binarne
 
         public Wezel Poprzednik(Wezel w)
         {
-            if(w.leweDziecko != null)
+            if (w.leweDziecko != null)
             {
-                return this.ZnajdzNajwiekszy(w.leweDziecko);
+                return this.ZnajdzNajwiekszy(w.praweDziecko);
             }
-            if (w.rodzic == null)
+            while (w.rodzic != null)
             {
-                return null;
-            }
-            while(w == w.rodzic.leweDziecko)
-            {
-                w = w.rodzic;
-                if(w.rodzic == null)
+                if (w.rodzic.praweDziecko == w)
                 {
-                    return null;
+                    return w.rodzic;
                 }
-                return w.rodzic;
+                w = w.rodzic;
             }
+            return null;
         }
 
         public Wezel Nastepnik(Wezel w)
@@ -189,21 +202,72 @@ namespace drzewo_binarne
             {
                 return this.ZnajdzNajmniejszy(w.praweDziecko);
             }
+            while (w.rodzic != null)
+            {
+                if (w.rodzic.leweDziecko == w)
+                {
+                    return w.rodzic;
+                }
+                w = w.rodzic;
+            }
+            return null;
+        }
+
+       
+
+        Wezel UsunGdy0Dzieci(Wezel w)
+        {
             if (w.rodzic == null)
             {
-                return null;
+                this.root = null;
+                return w;
             }
-            while(w.rodzic != null)
-            {
-                
-            }
+
+            if (w.rodzic.leweDziecko == w)
+                w.rodzic.leweDziecko = null;
+            else
+                w.rodzic.praweDziecko = null;
+
+            w.rodzic = null;         
+            return w;
         }
-        
+
+        Wezel UsunGdy1Dziecko(Wezel w)
+        {
+            Wezel dziecko = null;
+            if (w.leweDziecko != null)
+            {
+                dziecko = w.leweDziecko;
+                w.leweDziecko = null;
+            }
+            else
+            {
+                dziecko = w.praweDziecko;
+                w.praweDziecko = null;
+            }
+            dziecko.rodzic = w.rodzic;
+            if (w.rodzic.leweDziecko == w)
+            {
+                w.rodzic.leweDziecko = dziecko;
+            }
+            else
+            {
+                w.rodzic.praweDziecko = dziecko;
+            }
+            w.rodzic = null;
+            return w;
+        }
+
         public Wezel Usun(Wezel w)
         {
-            // 1) Gdy nie ma dzieci to odwiazujemy wezel
-            // 2) Gdy jest 1 dziecko to wchodzi na miejsce rodzica
-            // 3) Gdy 2 dzieci 
+            var liczbaDzieci = w.IleDzieci();
+            switch (liczbaDzieci)
+            {
+                case 0:
+                    return this.UsunGdy0Dzieci(w);
+                case 1:
+                    
+            }
         }
     }
 }
