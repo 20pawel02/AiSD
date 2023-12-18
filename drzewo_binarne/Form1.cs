@@ -310,4 +310,9 @@ namespace drzewo_binarne
             return w;
         }
     }
+
+    public class Graf
+    {
+        List<Wezel> wezly;
+    }
 }
