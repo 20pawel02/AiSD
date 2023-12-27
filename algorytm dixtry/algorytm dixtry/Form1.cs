@@ -24,7 +24,6 @@ namespace algorytm_dixtry
             this.waga = waga;
             this.poczatek = poczatek;
             this.koniec = koniec;
-            poczatek.listaKrawedzi++;
         }
     }
 
@@ -62,6 +61,14 @@ namespace algorytm_dixtry
         {
             List<int> odleglosc = new List<int>();
             List<Wezel> poprzedni = new List<Wezel>();
+
+            odleglosc[wezly.IndexOf(start)] = 0;
+            poprzedni[wezly.IndexOf(start)] = null;
+            foreach(var w in wezly)
+            {
+                odleglosc[wezly.IndexOf(w)] = int.MaxValue;
+                poprzedni[wezly.IndexOf(w)] = null;
+            }
         }
     }
 
