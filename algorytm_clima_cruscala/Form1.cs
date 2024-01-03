@@ -6,5 +6,10 @@ namespace algorytm_clima_cruscala
         {
             InitializeComponent();
         }
+
+        class Graf
+        {
+            
+        }
     }
 }
