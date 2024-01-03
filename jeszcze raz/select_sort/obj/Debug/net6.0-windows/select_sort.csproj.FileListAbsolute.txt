@@ -1,0 +1,16 @@
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\select_sort\bin\Debug\net6.0-windows\select_sort.exe
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\select_sort\bin\Debug\net6.0-windows\select_sort.deps.json
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\select_sort\bin\Debug\net6.0-windows\select_sort.runtimeconfig.json
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\select_sort\bin\Debug\net6.0-windows\select_sort.dll
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\select_sort\bin\Debug\net6.0-windows\select_sort.pdb
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\select_sort\obj\Debug\net6.0-windows\select_sort.Form1.resources
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\select_sort\obj\Debug\net6.0-windows\select_sort.csproj.GenerateResource.cache
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\select_sort\obj\Debug\net6.0-windows\select_sort.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\select_sort\obj\Debug\net6.0-windows\select_sort.AssemblyInfoInputs.cache
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\select_sort\obj\Debug\net6.0-windows\select_sort.AssemblyInfo.cs
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\select_sort\obj\Debug\net6.0-windows\select_sort.csproj.CoreCompileInputs.cache
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\select_sort\obj\Debug\net6.0-windows\select_sort.dll
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\select_sort\obj\Debug\net6.0-windows\refint\select_sort.dll
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\select_sort\obj\Debug\net6.0-windows\select_sort.pdb
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\select_sort\obj\Debug\net6.0-windows\select_sort.genruntimeconfig.cache
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\select_sort\obj\Debug\net6.0-windows\ref\select_sort.dll

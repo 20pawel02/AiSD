@@ -1,0 +1,16 @@
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\bubble_sort\bin\Debug\net6.0-windows\bubble_sort.exe
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\bubble_sort\bin\Debug\net6.0-windows\bubble_sort.deps.json
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\bubble_sort\bin\Debug\net6.0-windows\bubble_sort.runtimeconfig.json
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\bubble_sort\bin\Debug\net6.0-windows\bubble_sort.dll
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\bubble_sort\bin\Debug\net6.0-windows\bubble_sort.pdb
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\bubble_sort\obj\Debug\net6.0-windows\bubble_sort.Form1.resources
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\bubble_sort\obj\Debug\net6.0-windows\bubble_sort.csproj.GenerateResource.cache
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\bubble_sort\obj\Debug\net6.0-windows\bubble_sort.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\bubble_sort\obj\Debug\net6.0-windows\bubble_sort.AssemblyInfoInputs.cache
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\bubble_sort\obj\Debug\net6.0-windows\bubble_sort.AssemblyInfo.cs
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\bubble_sort\obj\Debug\net6.0-windows\bubble_sort.csproj.CoreCompileInputs.cache
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\bubble_sort\obj\Debug\net6.0-windows\bubble_sort.dll
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\bubble_sort\obj\Debug\net6.0-windows\refint\bubble_sort.dll
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\bubble_sort\obj\Debug\net6.0-windows\bubble_sort.pdb
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\bubble_sort\obj\Debug\net6.0-windows\bubble_sort.genruntimeconfig.cache
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\bubble_sort\obj\Debug\net6.0-windows\ref\bubble_sort.dll

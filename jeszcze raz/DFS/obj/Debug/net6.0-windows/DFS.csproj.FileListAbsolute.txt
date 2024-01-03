@@ -1,0 +1,16 @@
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\DFS\bin\Debug\net6.0-windows\DFS.exe
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\DFS\bin\Debug\net6.0-windows\DFS.deps.json
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\DFS\bin\Debug\net6.0-windows\DFS.runtimeconfig.json
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\DFS\bin\Debug\net6.0-windows\DFS.dll
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\DFS\bin\Debug\net6.0-windows\DFS.pdb
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\DFS\obj\Debug\net6.0-windows\DFS.Form1.resources
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\DFS\obj\Debug\net6.0-windows\DFS.csproj.GenerateResource.cache
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\DFS\obj\Debug\net6.0-windows\DFS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\DFS\obj\Debug\net6.0-windows\DFS.AssemblyInfoInputs.cache
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\DFS\obj\Debug\net6.0-windows\DFS.AssemblyInfo.cs
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\DFS\obj\Debug\net6.0-windows\DFS.csproj.CoreCompileInputs.cache
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\DFS\obj\Debug\net6.0-windows\DFS.dll
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\DFS\obj\Debug\net6.0-windows\refint\DFS.dll
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\DFS\obj\Debug\net6.0-windows\DFS.pdb
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\DFS\obj\Debug\net6.0-windows\DFS.genruntimeconfig.cache
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\DFS\obj\Debug\net6.0-windows\ref\DFS.dll

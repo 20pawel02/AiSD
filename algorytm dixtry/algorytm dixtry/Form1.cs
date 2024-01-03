@@ -24,6 +24,7 @@ namespace algorytm_dixtry
             this.waga = waga;
             this.poczatek = poczatek;
             this.koniec = koniec;
+            poczatek.listaKrawedzi++;
         }
     }
 
@@ -32,31 +33,31 @@ namespace algorytm_dixtry
         public List<Wezel> wezly = new List<Wezel>();
         public List<Krawedz> krawedzie = new List<Krawedz>();
 
-        public Graf(Wezel wezel)
+        public Graf(Wezel s)
         {
-            wezly.Add(wezel);
+            wezly.Add(s);
         }
 
-        public void Add(Wezel wezel, Wezel krawedz, int waga)
+        public void Add(Wezel s, Wezel k, int waga)
         {
-            if (!wezly.Contains(wezel))
+            if (!wezly.Contains(s))
             {
-                wezly.Add(wezel);
+                wezly.Add(s);
             }
 
-            if (!wezly.Contains(krawedz))
+            if (!wezly.Contains(k))
             {
-                wezly.Add(krawedz);
+                wezly.Add(k);
             }
 
-            var temp = new Krawedz(waga, wezel, krawedz);
+            var temp = new Krawedz(waga, s, k);
 
             if (!krawedzie.Contains(temp))
             {
                 krawedzie.Add(temp);
             }
         }
-
+        
         public void Dijkstra(Wezel start)
         {
             List<int> odleglosc = new List<int>();

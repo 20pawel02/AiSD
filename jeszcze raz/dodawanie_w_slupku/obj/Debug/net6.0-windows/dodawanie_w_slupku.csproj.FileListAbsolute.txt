@@ -1,0 +1,16 @@
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\dodawanie_w_slupku\bin\Debug\net6.0-windows\dodawanie_w_slupku.exe
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\dodawanie_w_slupku\bin\Debug\net6.0-windows\dodawanie_w_slupku.deps.json
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\dodawanie_w_slupku\bin\Debug\net6.0-windows\dodawanie_w_slupku.runtimeconfig.json
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\dodawanie_w_slupku\bin\Debug\net6.0-windows\dodawanie_w_slupku.dll
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\dodawanie_w_slupku\bin\Debug\net6.0-windows\dodawanie_w_slupku.pdb
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\dodawanie_w_slupku\obj\Debug\net6.0-windows\dodawanie_w_slupku.Form1.resources
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\dodawanie_w_slupku\obj\Debug\net6.0-windows\dodawanie_w_slupku.csproj.GenerateResource.cache
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\dodawanie_w_slupku\obj\Debug\net6.0-windows\dodawanie_w_slupku.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\dodawanie_w_slupku\obj\Debug\net6.0-windows\dodawanie_w_slupku.AssemblyInfoInputs.cache
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\dodawanie_w_slupku\obj\Debug\net6.0-windows\dodawanie_w_slupku.AssemblyInfo.cs
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\dodawanie_w_slupku\obj\Debug\net6.0-windows\dodawanie_w_slupku.csproj.CoreCompileInputs.cache
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\dodawanie_w_slupku\obj\Debug\net6.0-windows\dodawanie_w_slupku.dll
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\dodawanie_w_slupku\obj\Debug\net6.0-windows\refint\dodawanie_w_slupku.dll
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\dodawanie_w_slupku\obj\Debug\net6.0-windows\dodawanie_w_slupku.pdb
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\dodawanie_w_slupku\obj\Debug\net6.0-windows\dodawanie_w_slupku.genruntimeconfig.cache
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\dodawanie_w_slupku\obj\Debug\net6.0-windows\ref\dodawanie_w_slupku.dll

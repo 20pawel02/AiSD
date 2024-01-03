@@ -1,0 +1,16 @@
+C:\Users\tak\Documents\GitHub\AiSD\algorytm dixtry\algorytm dixtry\bin\Debug\net6.0-windows\algorytm dixtry.exe
+C:\Users\tak\Documents\GitHub\AiSD\algorytm dixtry\algorytm dixtry\bin\Debug\net6.0-windows\algorytm dixtry.deps.json
+C:\Users\tak\Documents\GitHub\AiSD\algorytm dixtry\algorytm dixtry\bin\Debug\net6.0-windows\algorytm dixtry.runtimeconfig.json
+C:\Users\tak\Documents\GitHub\AiSD\algorytm dixtry\algorytm dixtry\bin\Debug\net6.0-windows\algorytm dixtry.dll
+C:\Users\tak\Documents\GitHub\AiSD\algorytm dixtry\algorytm dixtry\bin\Debug\net6.0-windows\algorytm dixtry.pdb
+C:\Users\tak\Documents\GitHub\AiSD\algorytm dixtry\algorytm dixtry\obj\Debug\net6.0-windows\algorytm_dixtry.Form1.resources
+C:\Users\tak\Documents\GitHub\AiSD\algorytm dixtry\algorytm dixtry\obj\Debug\net6.0-windows\algorytm dixtry.csproj.GenerateResource.cache
+C:\Users\tak\Documents\GitHub\AiSD\algorytm dixtry\algorytm dixtry\obj\Debug\net6.0-windows\algorytm dixtry.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tak\Documents\GitHub\AiSD\algorytm dixtry\algorytm dixtry\obj\Debug\net6.0-windows\algorytm dixtry.AssemblyInfoInputs.cache
+C:\Users\tak\Documents\GitHub\AiSD\algorytm dixtry\algorytm dixtry\obj\Debug\net6.0-windows\algorytm dixtry.AssemblyInfo.cs
+C:\Users\tak\Documents\GitHub\AiSD\algorytm dixtry\algorytm dixtry\obj\Debug\net6.0-windows\algorytm dixtry.csproj.CoreCompileInputs.cache
+C:\Users\tak\Documents\GitHub\AiSD\algorytm dixtry\algorytm dixtry\obj\Debug\net6.0-windows\algorytm dixtry.dll
+C:\Users\tak\Documents\GitHub\AiSD\algorytm dixtry\algorytm dixtry\obj\Debug\net6.0-windows\refint\algorytm dixtry.dll
+C:\Users\tak\Documents\GitHub\AiSD\algorytm dixtry\algorytm dixtry\obj\Debug\net6.0-windows\algorytm dixtry.pdb
+C:\Users\tak\Documents\GitHub\AiSD\algorytm dixtry\algorytm dixtry\obj\Debug\net6.0-windows\algorytm dixtry.genruntimeconfig.cache
+C:\Users\tak\Documents\GitHub\AiSD\algorytm dixtry\algorytm dixtry\obj\Debug\net6.0-windows\ref\algorytm dixtry.dll
