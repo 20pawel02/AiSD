@@ -1,0 +1,16 @@
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\BFS\bin\Debug\net6.0-windows\BFS.exe
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\BFS\bin\Debug\net6.0-windows\BFS.deps.json
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\BFS\bin\Debug\net6.0-windows\BFS.runtimeconfig.json
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\BFS\bin\Debug\net6.0-windows\BFS.dll
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\BFS\bin\Debug\net6.0-windows\BFS.pdb
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\BFS\obj\Debug\net6.0-windows\BFS.Form1.resources
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\BFS\obj\Debug\net6.0-windows\BFS.csproj.GenerateResource.cache
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\BFS\obj\Debug\net6.0-windows\BFS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\BFS\obj\Debug\net6.0-windows\BFS.AssemblyInfoInputs.cache
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\BFS\obj\Debug\net6.0-windows\BFS.AssemblyInfo.cs
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\BFS\obj\Debug\net6.0-windows\BFS.csproj.CoreCompileInputs.cache
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\BFS\obj\Debug\net6.0-windows\BFS.dll
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\BFS\obj\Debug\net6.0-windows\refint\BFS.dll
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\BFS\obj\Debug\net6.0-windows\BFS.pdb
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\BFS\obj\Debug\net6.0-windows\BFS.genruntimeconfig.cache
+C:\Users\tak\Documents\GitHub\AiSD\jeszcze raz\BFS\obj\Debug\net6.0-windows\ref\BFS.dll
